@@ -1,0 +1,118 @@
+name: 👋 Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 👋 Greet First Time Contributors
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          issue-message: |
+            👋 **Hello @${{ github.actor }}!**
+
+            Thank you for opening your first issue in the Rust Learning Vault! 🎉
+
+            We're excited to have you as part of our learning community. Your feedback and suggestions help make this resource better for everyone.
+
+            ## 📚 While you wait
+
+            - Check out our [Contributing Guide](https://github.com/Desperado1001/rust-learning-vault/blob/main/CONTRIBUTING.md) ([中文版](https://github.com/Desperado1001/rust-learning-vault/blob/main/CONTRIBUTING_CN.md))
+            - Browse the [Learning Roadmap](https://github.com/Desperado1001/rust-learning-vault/blob/main/00-Index/Learning-Roadmap.md)
+            - Join our [Discussions](https://github.com/Desperado1001/rust-learning-vault/discussions)
+            - Star ⭐ this repo if you find it helpful!
+
+            ## 🔔 What's next?
+
+            A maintainer will review your issue soon. We typically respond within 48 hours.
+
+            ## 🤝 Want to contribute?
+
+            If you'd like to work on this issue yourself, let us know! We're happy to guide you through the process.
+
+            ---
+
+            **Happy Learning!** 🦀
+
+            *The Rust compiler is your friend!*
+
+          pr-message: |
+            🎉 **Congratulations @${{ github.actor }}!**
+
+            Thank you for opening your first Pull Request to the Rust Learning Vault! This is awesome! 🚀
+
+            ## 📋 Before we review
+
+            Please make sure you've:
+
+            - [ ] Read our [Contributing Guide](https://github.com/Desperado1001/rust-learning-vault/blob/main/CONTRIBUTING.md) ([中文版](https://github.com/Desperado1001/rust-learning-vault/blob/main/CONTRIBUTING_CN.md))
+            - [ ] Tested your changes in Obsidian
+            - [ ] Verified all links work correctly
+            - [ ] Followed the style guide
+            - [ ] Updated related notes with cross-references
+            - [ ] Added appropriate tags
+
+            ## 🔍 Review Process
+
+            A maintainer will review your PR soon. Here's what to expect:
+
+            1. **Automated Checks** - CI will run link checker and markdown linter
+            2. **Code Review** - A maintainer will review your changes
+            3. **Feedback** - You may receive suggestions for improvements
+            4. **Approval** - Once approved, your PR will be merged!
+
+            ## 💡 Tips
+
+            - Be patient - we're all volunteers here! ❤️
+            - Feel free to ask questions in the comments
+            - If you need to make changes, just push to your branch
+            - Check the CI results and fix any issues
+
+            ## 🌟 Recognition
+
+            Your contribution will be:
+            - Listed in our [CHANGELOG](https://github.com/Desperado1001/rust-learning-vault/blob/main/CHANGELOG.md)
+            - Acknowledged in the README (for significant contributions)
+            - Appreciated by the entire Rust learning community! 🙏
+
+            ---
+
+            **Thank you for making this project better!** 🦀❤️
+
+            *"The best way to learn is to teach others."*
+
+      - name: 🏷️ Add Labels to First Issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['first-time-contributor', 'needs-triage']
+            });
+
+      - name: 🏷️ Add Labels to First PR
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['first-time-contributor']
+            });
