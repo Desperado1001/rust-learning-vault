@@ -354,6 +354,12 @@ SORT status DESC
 - 📝 **添加资源** - 提交包含新内容的 PR
 - 🎨 **分享模板** - 创建新模板
 
+📖 **阅读我们的详细[贡献指南](CONTRIBUTING_CN.md)**（[English](CONTRIBUTING.md)）了解完整指引：
+- 如何设置开发环境
+- 内容指南和样式规范
+- Pull Request 流程
+- 社区规范
+
 ### 如何贡献
 
 1. Fork 这个仓库
@@ -400,6 +406,6 @@ SORT status DESC
 
 ![Rust Logo](https://www.rust-lang.org/static/images/rust-logo-blk.svg)
 
-**最后更新：** 2024年1月 | **版本：** 2.0.0
+**最后更新：** 2025年10月27日 | **版本：** 0.1.0
 
 </div>

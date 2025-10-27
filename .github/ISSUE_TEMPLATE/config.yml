@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/Desperado1001/rust-learning-vault/discussions
+    about: Ask questions, share ideas, and engage with the community
+  - name: 📚 Learning Roadmap
+    url: https://github.com/Desperado1001/rust-learning-vault/blob/main/00-Index/Learning-Roadmap.md
+    about: Check out the complete learning path before opening an issue
+  - name: 📖 How to Use This Vault
+    url: https://github.com/Desperado1001/rust-learning-vault/blob/main/00-Index/How-To-Use-This-Vault.md
+    about: Learn how to use the vault effectively
+  - name: 🦀 Rust Official Docs
+    url: https://doc.rust-lang.org/
+    about: Official Rust documentation and resources
+  - name: ⭐ Star This Repo
+    url: https://github.com/Desperado1001/rust-learning-vault
+    about: Show your support by starring this repository!

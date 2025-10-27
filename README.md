@@ -353,6 +353,12 @@ Contributions are welcome! Here's how you can help:
 - 📝 **Add resources** - Submit PRs with new content
 - 🎨 **Share templates** - Create new templates
 
+📖 **Read our detailed [Contributing Guide](CONTRIBUTING.md)** ([中文版](CONTRIBUTING_CN.md)) for complete guidelines on:
+- How to set up your development environment
+- Content guidelines and style guide
+- Pull request process
+- Community standards
+
 ### How to Contribute
 
 1. Fork this repository
@@ -399,6 +405,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ![Rust Logo](https://www.rust-lang.org/static/images/rust-logo-blk.svg)
 
-**Last Updated:** January 2024 | **Version:** 2.0.0
+**Last Updated:** October 27, 2025 | **Version:** 0.1.0
 
 </div>
