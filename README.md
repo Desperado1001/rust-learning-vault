@@ -12,6 +12,8 @@
 
 [🚀 Quick Start](#-quick-start) • [📚 Documentation](#-vault-structure) • [🎯 Features](#-core-features) • [🤝 Contributing](#-contributing)
 
+**English** | **[简体中文](README_CN.md)**
+
 </div>
 
 ---
