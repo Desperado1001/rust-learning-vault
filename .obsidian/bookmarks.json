@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "🎯 Start Here",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "00-Index/Rust-MOC.md",
+          "title": "📚 Rust MOC (Main Index)"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "00-Index/Learning-Roadmap.md",
+          "title": "🗺️ Learning Roadmap"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "00-Index/Setup-Guide.md",
+          "title": "⚙️ Setup Guide"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "00-Index/How-To-Use-This-Vault.md",
+          "title": "📖 How to Use This Vault"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "🚀 Projects & Guides",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "06-Projects/Rust-Web-Projects.md",
+          "title": "🌐 Rust Web Projects"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "06-Projects/Rust-WebAssembly-Guide.md",
+          "title": "🦀 WebAssembly Guide"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "06-Projects/WASM-Quick-Reference.md",
+          "title": "⚡ WASM Quick Reference"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "📝 Templates",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "10-Templates/Daily-Learning-Template.md",
+          "title": "📅 Daily Learning Template"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "10-Templates/Concept-Template.md",
+          "title": "💡 Concept Template"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "10-Templates/Code-Snippet-Template.md",
+          "title": "💾 Code Snippet Template"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "📂 Quick Access Folders",
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1698364800000,
+          "path": "01-Fundamentals",
+          "title": "📘 Fundamentals"
+        },
+        {
+          "type": "folder",
+          "ctime": 1698364800000,
+          "path": "08-Daily-Learning",
+          "title": "📅 Daily Learning"
+        },
+        {
+          "type": "folder",
+          "ctime": 1698364800000,
+          "path": "07-Code-Snippets",
+          "title": "💾 Code Snippets"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "📚 Core Concepts",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "01-Fundamentals/Ownership.md",
+          "title": "🔐 Ownership"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "09-Questions-and-Answers/Why-No-Null.md",
+          "title": "❓ Why No Null?"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "ctime": 1698364800000,
+      "title": "🔗 External Resources",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "README.md",
+          "title": "📖 Repository README"
+        },
+        {
+          "type": "file",
+          "ctime": 1698364800000,
+          "path": "CONTRIBUTING.md",
+          "title": "🤝 Contributing Guide"
+        }
+      ]
+    }
+  ]
+}

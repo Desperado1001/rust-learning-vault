@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "example-main-area",
+    "type": "split",
+    "children": [
+      {
+        "id": "example-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "example-leaf-1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Index/Rust-MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "example-leaf-2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Index/Learning-Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "example-leaf-3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 0
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "example-left-sidebar",
+    "type": "split",
+    "children": [
+      {
+        "id": "example-left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "example-file-explorer",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "example-search",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "example-bookmarks",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 0
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": false
+  },
+  "right": {
+    "id": "example-right-sidebar",
+    "type": "split",
+    "children": [
+      {
+        "id": "example-right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "example-backlink",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-Index/Rust-MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "example-outgoing-link",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Index/Rust-MOC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "example-outline",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Index/Rust-MOC.md"
+              }
+            }
+          },
+          {
+            "id": "example-tag-pane",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 0
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": false
+  },
+  "active": "example-leaf-1",
+  "lastOpenFiles": [
+    "00-Index/Rust-MOC.md",
+    "00-Index/Learning-Roadmap.md",
+    "00-Index/Setup-Guide.md",
+    "01-Fundamentals/Ownership.md",
+    "06-Projects/Rust-Web-Projects.md",
+    "06-Projects/Rust-WebAssembly-Guide.md",
+    "10-Templates/Daily-Learning-Template.md",
+    "10-Templates/Concept-Template.md",
+    "README.md"
+  ]
+}

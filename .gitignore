@@ -1,8 +1,8 @@
-# Obsidian workspace files (local settings)
+# Obsidian workspace files (personal settings - DO NOT COMMIT)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
-# Obsidian cache
+# Obsidian cache (generated files)
 .obsidian/cache/
 
 # OS generated files
@@ -15,13 +15,33 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
+# Windows
+$RECYCLE.BIN/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+
 # Temporary files
 *.tmp
 *.temp
 *~
 .*.swp
 .*.swo
+*.bak
+*.log
 
 # Personal notes (if you want to keep some notes private)
 # Uncomment the following line if needed:
 # **/Private/
+
+# Node modules (if using any Obsidian plugins with npm)
+node_modules/
+
+# Plugin data that shouldn't be shared
+.obsidian/plugins/*/data.json
+
+# Workspace state files
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json

@@ -215,6 +215,51 @@ graph LR
 
 ---
 
+## ⚙️ Obsidian Configuration
+
+### 🎉 Out-of-the-Box Setup
+
+This vault comes with a **complete Obsidian configuration** pre-installed! Just open it in Obsidian and start learning—no setup required.
+
+### 📁 What's Included
+
+The `.obsidian` folder contains:
+
+- ✅ **Core Plugins** - All essential features enabled (Graph, Templates, Daily Notes, etc.)
+- ✅ **Custom Hotkeys** - Productivity-boosting keyboard shortcuts
+- ✅ **Graph Colors** - Each folder has a distinct color for visual clarity
+- ✅ **Template Setup** - Automatic template folder configuration
+- ✅ **Daily Notes Config** - Pre-configured with custom location and template
+- ✅ **Optimized Settings** - Readable fonts, spellcheck, auto-linking, and more
+
+### ⌨️ Essential Hotkeys
+
+| Action | Windows/Linux | Mac |
+|--------|---------------|-----|
+| Quick Switcher | `Ctrl + O` | `Cmd + O` |
+| Command Palette | `Ctrl + Shift + P` | `Cmd + Shift + P` |
+| Open Graph | `Ctrl + G` | `Cmd + G` |
+| Open Today's Note | `Ctrl + Shift + D` | `Cmd + Shift + D` |
+| Insert Template | `Ctrl + T` | `Cmd + T` |
+| Toggle Bold | `Ctrl + B` | `Cmd + B` |
+
+**See `.obsidian/README.md` for the complete hotkey list!**
+
+### 🎨 Graph View Colors
+
+The knowledge graph is color-coded by folder:
+- 🔴 Index (Red) • 🟠 Fundamentals (Orange) • 🟡 Advanced (Yellow)
+- 🟢 Standard Library (Green) • 🔵 Ecosystem (Cyan) • 🟣 Projects (Purple)
+
+### 🔧 Customization
+
+All settings can be customized through:
+- Settings (`Ctrl/Cmd + ,`) → Appearance, Hotkeys, Plugins
+- Your changes are saved automatically
+- See `.obsidian/README.md` for detailed configuration guide
+
+---
+
 ## 📚 Learning Resources
 
 ### Internal Resources (Included in Vault)

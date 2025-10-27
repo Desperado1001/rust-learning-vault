@@ -1,0 +1,14 @@
+{
+  "accentColor": "#ff6b6b",
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "translucency": false,
+  "enabledCssSnippets": [],
+  "interfaceFontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+  "textFontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+  "monospaceFontFamily": "\"JetBrains Mono\", \"Fira Code\", \"SF Mono\", Monaco, \"Cascadia Code\", \"Roboto Mono\", Consolas, \"Courier New\", monospace",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showViewHeader": true
+}
