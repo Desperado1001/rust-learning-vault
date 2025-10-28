@@ -2,12 +2,10 @@
   "livePreview": true,
   "strictLineBreaks": false,
   "showFrontmatter": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "readableLineLength": true,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "defaultViewMode": "source",
   "attachmentFolderPath": "assets",
   "newLinkFormat": "shortest",
@@ -24,13 +22,10 @@
   "showIndentGuide": true,
   "vimMode": false,
   "legacyEditor": false,
-  "theme": "moonstone",
-  "baseFontSize": 16,
   "tabSize": 2,
   "lineWrap": true,
   "indentWithTabs": false,
   "showInlineTitle": true,
-  "accentColor": "",
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
@@ -38,12 +33,6 @@
     "downscalePercent": 100
   },
   "fileSortOrder": "alphabetical",
-  "foldHeading": true,
-  "foldIndent": true,
-  "showLineNumber": true,
-  "nativeMenus": false,
-  "translucency": false,
-  "promptDelete": true,
   "mobilePullAction": "command-palette",
   "mobileQuickRibbonItem": "command-palette"
 }
