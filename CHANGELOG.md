@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **CLAUDE.md** - Comprehensive guidance file for Claude Code instances
+- Complete repository analysis and documentation
+- Workflow guidance for content creation and knowledge management
+
+### Changed
+- Updated Obsidian configuration files for better user experience
+- Improved content structure and organization
+- Enhanced learning roadmap and MOC files
+- Updated setup documentation
+
+### Fixed
+- Line ending normalization for cross-platform compatibility
+- Configuration file optimizations
+
 ### Planned
 - Additional Rust concept notes for 01-Fundamentals
 - More code snippets in 07-Code-Snippets
