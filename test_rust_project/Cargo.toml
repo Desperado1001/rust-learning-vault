@@ -1,0 +1,27 @@
+[package]
+name = "test_rust_project"
+version = "0.1.0"
+edition = "2021"
+
+# 添加元数据
+[package.metadata.build]
+target = "x86_64-unknown-linux-musl"  # 交叉编译目标示例
+
+# 定义二进制目标
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+# 添加更多配置选项
+[profile.release]
+opt-level = 3        # 最高优化级别
+lto = true          # 链接时优化
+codegen-units = 1   # 减少代码生成单元以提高优化
+panic = "abort"     # 使用 abort 而不是 unwind
+strip = true        # 去除调试符号
+
+[profile.dev]
+opt-level = 0       # 开发时不优化
+debug = true        # 保留调试信息
+
+[dependencies]
